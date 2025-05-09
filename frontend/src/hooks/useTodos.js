@@ -66,3 +66,6 @@ export function useTodos() {
 
   return { state, dispatch };
 }
+
+// ⚠️ ¡Estos son necesarios para que los tests puedan importarlos!
+export { reducer, ACTIONS };
